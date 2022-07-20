@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: black;
+}
+
+img {
+    height: 360px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 150px;
+    margin-top: 40px;
+    color: #0105fb;
+}
+
+#caixa-numeros {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 7px;
+}
+
+.numeros {
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.numero-verde {
+    color: #f82424;
+}
+
+#caixa-botoes {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.botoes {
+    color: #0105fb;
+    background: white;
+    padding: 6px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#minutos {
+    color: #0105fb;
+}
+
+#horas {
+    color: #0105fb;
+}
+
+#segundos {
+    color: #0105fb;
+}
+
+.ativo {
+    opacity: 0.5;
+}
+
+.resetcolor{
+    background-color: chocolate;
+}
